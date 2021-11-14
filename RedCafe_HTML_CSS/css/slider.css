@@ -1,0 +1,64 @@
+/* CSS STYLING FILE FOR IMAGE SLIDER */ 
+/* wrapper that holds container which holds thr image slider. wrapper is displayed as block positioning */ 
+#sliderWrapper{
+	display: block;
+	width: 1001px;
+	height: 775px;
+}
+/* container which holds thr image slider. wrapper is displayed as block positioning */
+#sliderContainer{
+	background-color: black;
+	display: block;
+	width: 1001px;
+	height: 775px;
+	float: left;
+}
+/* size and positioning of image slighter */
+#slider{
+	display: block;
+	position: absolute;
+	float: left;
+	overflow: hidden;
+	width: 1001px;
+	height: 775px;
+}
+/* change image to previous image by change float attribute of image to left */
+#prev{
+
+	float: left;
+}
+/* change image to next image by change float attribute of image to right */
+#next{
+
+	float: right;
+
+	text-align: right;
+	padding-right: 1em;
+}
+/* define positioning, size and styling of sliderController that controls interactivity of slider */
+.sliderController{
+	display: block;
+	height: 400px;
+	width: 100px;
+	position: relative;
+	z-index: 99;
+	font-weight: bold;
+	color: white;
+	font-size: xx-large;
+	text-align: center;
+}
+/* change visual presentation of slider controller dots on hover */
+.sliderController:hover{
+	background-color: white ;
+	opacity:0.3;
+	filter:alpha(opacity=30);
+	color: black;
+}
+/* styling and position of arrow navigation of the image slider */
+.arrow{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+}
+
+
